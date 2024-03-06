@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/Launcher_Comm/AppleGrove/AppleGrove-Distribution/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "1214866612868481034",
+      "smallImageText": "사과나무숲",
+      "smallImageKey": "icon"
+    }
+  }
+}

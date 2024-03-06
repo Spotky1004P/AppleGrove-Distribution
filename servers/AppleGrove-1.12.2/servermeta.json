@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Launcher_Comm/AppleGrove/AppleGrove-Distribution/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "사과나무숲",
+    "description": "사과나무숲 서버 접속을 위한 모드팩이에요",
+    "icon": "https://cdn.discordapp.com/app-assets/1214866612868481034/1214866892351610980.png",
+    "address": "103.124.101.221",
+    "discord": {
+      "shortId": "사과나무숲",
+      "largeImageText": "사과나무숲",
+      "largeImageKey": "icon"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "14.23.5.2859"
+  },
+  "untrackedFiles": []
+}

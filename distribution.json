@@ -1,0 +1,413 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1214866612868481034",
+    "smallImageText": "사과나무숲",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "AppleGrove-1.12.2",
+      "name": "사과나무숲",
+      "description": "사과나무숲 서버 접속을 위한 모드팩이에요",
+      "icon": "https://cdn.discordapp.com/app-assets/1214866612868481034/1214866892351610980.png",
+      "version": "1.0.0",
+      "address": "103.124.101.221",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "사과나무숲",
+        "largeImageText": "사과나무숲",
+        "largeImageKey": "icon"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2859",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jds.bibliocraft:bibliocraft:2.4.6@jar",
+          "name": "BiblioCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5185177,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/BiblioCraft[v2.4.6][MC1.12.2].jar",
+            "MD5": "c10b7d250bdeb1efedf17b4b0c40c573"
+          }
+        },
+        {
+          "id": "com.kixiko:cocricotmod:1.11.0@jar",
+          "name": "CocricotMOD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945950,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/cocricotMOD_1.12.2_v1.11.0.jar",
+            "MD5": "1517f8e2bd7ab68207e7dc524d5bb24c"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9937600,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jul20.jar",
+            "MD5": "de8f6f7dae6164d7c2a5e344de6f6805"
+          }
+        },
+        {
+          "id": "mchorse.emoticons:emoticons:1.1.1-1.12.2@jar",
+          "name": "Emoticons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2050306,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/emoticons-1.1.1-1.12.2.jar",
+            "MD5": "1768885e40af586690cad27a5733a2cc"
+          }
+        },
+        {
+          "id": "org.dimdev:jeid:1.0.3-55@jar",
+          "name": "JustEnoughIDs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 982320,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/JustEnoughIDs-1.0.3-55.jar",
+            "MD5": "ac6f54cb5478dd3d0147aedbfe782d5d"
+          }
+        },
+        {
+          "id": "creo.mod:koreanchat:1.12-1.9@jar",
+          "name": "Korean Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30763,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/koreanchat-creo-1.12-1.9.jar",
+            "MD5": "91492de16021a4f7018eb5d523f45fc2"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.4.1-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737227,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/mclib-2.4.1-1.12.2.jar",
+            "MD5": "cb07b8af714bcd966c87707b165a87fa"
+          }
+        },
+        {
+          "id": "noppes.mpm:moreplayermodels:(05Dec19)@jar",
+          "name": "MorePlayerModels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 939984,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/MorePlayerModels_1.12.2-(05Dec19).jar",
+            "MD5": "ca203e960d9d411674231c2a4a6ef1c1"
+          }
+        },
+        {
+          "id": "net.aeronica.mods:mxtune:1.0.3@jar",
+          "name": "MxTune",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21439294,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/mxtune-1.12.2-1.0.3.jar",
+            "MD5": "88568e00e79affb6525b2d5922d1ee22"
+          }
+        },
+        {
+          "id": "com.pam:harvestcraft:1.12a@jar",
+          "name": "Pam's HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4904080,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/Pam's+HarvestCraft+1.12.2ze.jar",
+            "MD5": "386f64f19b1b739a7cfa954753aa397e"
+          }
+        },
+        {
+          "id": "com.unnoen:unloader:1.2.0@jar",
+          "name": "Unloader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6396,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/forgemods/required/unloader-1.2.0.jar",
+            "MD5": "c13b3a2c4ed9537e4f64f7c9bbde64f3"
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.12.2_HD_U_G5_MOD:0.0.0@jar",
+          "name": "OptiFine_1.12.2_HD_U_G5_MOD",
+          "type": "Library",
+          "artifact": {
+            "size": 2457427,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/libraries/OptiFine_1.12.2_HD_U_G5_MOD.jar",
+            "MD5": "3fb4d76b73ccfeb4e79fcec6805a7898"
+          }
+        },
+        {
+          "id": "applegrove_위에_있게.zip",
+          "name": "applegrove_위에_있게.zip",
+          "type": "File",
+          "artifact": {
+            "size": 66301,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/files/resourcepacks/applegrove_%EC%9C%84%EC%97%90_%EC%9E%88%EA%B2%8C.zip",
+            "MD5": "cbdfe1c733761df8c3fae2dacaf5796f",
+            "path": "resourcepacks/applegrove_위에_있게.zip"
+          }
+        },
+        {
+          "id": "cocricot_1.12.2_v1.11.0_아래로.zip",
+          "name": "cocricot_1.12.2_v1.11.0_아래로.zip",
+          "type": "File",
+          "artifact": {
+            "size": 42172148,
+            "url": "https://github.com/Spotky1004P/AppleGrove-Distribution/raw/main/servers/AppleGrove-1.12.2/files/resourcepacks/cocricot_1.12.2_v1.11.0_%EC%95%84%EB%9E%98%EB%A1%9C.zip",
+            "MD5": "418afd51739723d5233e9ccf7c33a131",
+            "path": "resourcepacks/cocricot_1.12.2_v1.11.0_아래로.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
